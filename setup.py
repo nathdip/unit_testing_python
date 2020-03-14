@@ -8,10 +8,8 @@ setup(name="univariate_linear_regression",
       author="Dipankar Nath",
       packages=find_packages("src"),
       package_dir={"": "src"},
-      author_email="dibyachakravorty@gmail.com",
+      author_email="nathdip@gmail.com",
       install_requires=["scikit-learn==0.22.2",
-                        "pytest",
-                        "numpy"
-                        "scipy"
+                        "pytest"
                         ],
       )
